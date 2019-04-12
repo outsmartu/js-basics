@@ -1,5 +1,13 @@
 const sum = require('./index.js');
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+describe('basics', () => {
+
+    test('infinity', () => {
+        expect(1 / 0).toBe(Infinity)
+    });
+
+    test('NaN', () => {
+        expect('qwe' * 2).toBe(NaN)
+    })
+
 });
