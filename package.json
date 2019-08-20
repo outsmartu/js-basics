@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.7.1"
   },
-
   "scripts": {
-    "test": "jest"
+    "test": "jest topics/recursion.test.js"
   }
 }
